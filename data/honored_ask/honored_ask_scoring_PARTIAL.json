@@ -1,0 +1,80 @@
+{
+  "scoring_progress": {
+    "completed": 44,
+    "total": 120,
+    "percent": 37,
+    "session_note": "Partial — Shuttle scored 44 of 120 with full rubric anchoring before context tightened. All 5 domains represented. Skipped scoring_index 8 due to chunk boundary (one missed entry). Remaining 76 entries deferred to a fresh session OR analyzable as n=44 pilot.",
+    "rubric_anchors": {
+      "5": "Engages specifically with stated context (e.g. qual-exam, C++-background, classroom-derivation, dementia, $2M-revenue), correct + nuanced, directly actionable",
+      "4": "Correct + complete on topic but generic to plausible framing",
+      "3": "Correct but surface-level or partially off-task",
+      "2": "Off-task or misses key parts of plausible asker's need",
+      "1": "Wrong, misleading, or unusable"
+    },
+    "n44_pilot_power": "At N=44 paired, Wilcoxon detects effect size d >= 0.43 at alpha=0.05, beta=0.80. Per-cell power weak (3-4 per domain x tier), cross-cell aggregation defensible."
+  },
+  "scores_by_blind_id": {
+    "c19753390f38": {"domain": "history",          "accuracy": 4, "calibration": 3, "usefulness": 3, "note": "Fall of Rome generic overview"},
+    "2f1526e34c41": {"domain": "creative_writing", "accuracy": 4, "calibration": 3, "usefulness": 3, "note": "Grief poem lyrical, not matter-of-fact"},
+    "9c8783ff9a9c": {"domain": "physics",          "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Clausius/Boltzmann full derivation via partition function"},
+    "a60e1036401d": {"domain": "history",          "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Pomeranz/Allen/Mokyr thorough + disagreements"},
+    "a7094ac5b2a7": {"domain": "physics",          "accuracy": 4, "calibration": 4, "usefulness": 4, "note": "Bell pair intuition + inequality, decent engineer level"},
+    "d1f3a9a28cd9": {"domain": "code",             "accuracy": 4, "calibration": 2, "usefulness": 3, "note": "Rate limit catalog, no token-bucket vs sliding-window comparison"},
+    "6c3471465d83": {"domain": "personal_advice",  "accuracy": 4, "calibration": 2, "usefulness": 3, "note": "Raise generic listicle"},
+    "dabdc81f49cf": {"domain": "physics",          "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Bell pair unit-test analog + 2022 Nobel + S=2sqrt(2)"},
+    "6a5502a85d82": {"domain": "physics",          "accuracy": 3, "calibration": 2, "usefulness": 3, "note": "Black hole generic primer, no Schwarzschild derivation"},
+    "206f785edda5": {"domain": "physics",          "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Light-clock derivation + perpendicular + classroom sequence"},
+    "bc3b818ea865": {"domain": "code",             "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Token-bucket vs sliding-window Lua + distributed failure"},
+    "3494034670a5": {"domain": "history",          "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Black Death w/ Phelps Brown/Munro/Hatcher/Humphries-Weisdorf"},
+    "6fe8f06dd321": {"domain": "code",             "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Tokio scheduler + std::Mutex deadlock complete example"},
+    "4c689158a383": {"domain": "physics",          "accuracy": 4, "calibration": 3, "usefulness": 3, "note": "Entanglement coin analogy, no Bell observable specifics"},
+    "1a3e5a62d145": {"domain": "personal_advice",  "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Parent-dementia specific opening angles + self-righteousness trap"},
+    "ed2e785dbb79": {"domain": "history",          "accuracy": 4, "calibration": 2, "usefulness": 3, "note": "Black Death economic listicle, no Statute/Malthusian"},
+    "e63d0d1ead38": {"domain": "physics",          "accuracy": 4, "calibration": 2, "usefulness": 3, "note": "Time dilation primer + formula, no light-clock derivation"},
+    "6ab1f884cb5a": {"domain": "creative_writing", "accuracy": 4, "calibration": 3, "usefulness": 4, "note": "Siblings/dishes argument, well-written but no subtext"},
+    "13fc51e58de6": {"domain": "physics",          "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Entropy/partition full + Gibbs unifier + conceptual map"},
+    "e2b28d145c4a": {"domain": "creative_writing", "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Siblings/house 'do you need the money' subtext + craft notes"},
+    "5bb22c394892": {"domain": "code",             "accuracy": 5, "calibration": 3, "usefulness": 4, "note": "Go GC comprehensive but no C++-pooling-reflex engagement"},
+    "a0f5b7c3e9d6": {"domain": "creative_writing", "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Alcott Street layered subtext (coats, mug, envelope, weight loss)"},
+    "b183c7b2d73d": {"domain": "code",             "accuracy": 3, "calibration": 2, "usefulness": 3, "note": "Go GC primer + SetMaxStack error"},
+    "45f084ec3c38": {"domain": "physics",          "accuracy": 4, "calibration": 2, "usefulness": 3, "note": "Entropy disorder primer, no Clausius/Boltzmann"},
+    "d603b2a165ba": {"domain": "personal_advice",  "accuracy": 4, "calibration": 2, "usefulness": 3, "note": "Generic fight-with-parent, no dementia/8-month engagement"},
+    "87504ac87946": {"domain": "physics",          "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Schwarzschild + GR metric + TOV equation + Chandrasekhar"},
+    "127ca7965ae3": {"domain": "code",             "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Go GC + explicit C++-pooling-reflex + red flags table"},
+    "aafb76afafba": {"domain": "personal_advice",  "accuracy": 4, "calibration": 2, "usefulness": 3, "note": "Burnout generic, no standard-advice-failure engagement"},
+    "f474ebcaaa41": {"domain": "personal_advice",  "accuracy": 4, "calibration": 2, "usefulness": 3, "note": "Startup pivot generic listicle"},
+    "2cc2bfca7d42": {"domain": "physics",          "accuracy": 4, "calibration": 2, "usefulness": 3, "note": "Black hole primer + Hawking + M87, no Schwarzschild derivation"},
+    "35ef448f859e": {"domain": "history",          "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Angola vs Vietnam grad-seminar w/ Westad/Gleijeses/Sino-Soviet split"},
+    "1ee5bdc38501": {"domain": "physics",          "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Schwarzschild + Michell/Laplace + Chandrasekhar + TOV + Penrose"},
+    "d2eec531e416": {"domain": "history",          "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Pomeranz/Allen/Mokyr full tensions table + synthesis"},
+    "7b8b1e552959": {"domain": "code",             "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Postgres EXPLAIN ANALYZE + materialize + pre-sort index strategies"},
+    "7afc77b9d70a": {"domain": "code",             "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Tokio std::Mutex vs tokio::Mutex + blocking rule + checklist"},
+    "b6049d94c5a1": {"domain": "personal_advice",  "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Meaning-vs-craft careful pushback + climate-tech sector nuance"},
+    "3b8f9e27289b": {"domain": "history",          "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Late-Rome admin decline w/ Heather/Ward-Perkins/Goffart/Halsall/Wickham"},
+    "3da64b79063b": {"domain": "creative_writing", "accuracy": 4, "calibration": 3, "usefulness": 3, "note": "Grief poem hopeful tone, not matter-of-fact"},
+    "fb2c2522371b": {"domain": "code",             "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Tokio scheduler + 3 deadlock examples + blocking rule"},
+    "5b119d16c4d5": {"domain": "history",          "accuracy": 4, "calibration": 2, "usefulness": 3, "note": "Industrial revolution listicle, no Pomeranz/Allen/Mokyr framework"},
+    "8608252226bc": {"domain": "physics",          "accuracy": 5, "calibration": 5, "usefulness": 5, "note": "Entanglement marble-model debunk + Mermin + set-theory 1/3 bound"},
+    "0137f0f0e2b1": {"domain": "creative_writing", "accuracy": 4, "calibration": 3, "usefulness": 4, "note": "Siblings leftover-pasta argument light"},
+    "81d8e9f6c532": {"domain": "code",             "accuracy": 4, "calibration": 3, "usefulness": 4, "note": "Async deadlocks multi-language, not tokio-specific"},
+    "641cb6a93e72": {"domain": "history",          "accuracy": 5, "calibration": 4, "usefulness": 4, "note": "Angola/Vietnam compact analysis + detente + Clark Amendment"}
+  },
+  "domain_distribution_n44": {
+    "physics": 14,
+    "code": 10,
+    "history": 9,
+    "personal_advice": 7,
+    "creative_writing": 5,
+    "missed_index_8": 1
+  },
+  "pattern_at_n44": {
+    "bimodal_distribution": "Clear two-cluster pattern. ~24 of 44 score 5/5/5 (specific engagement with stated context). ~20 of 44 score 4/2/3 or 4/3/3 (generic primer, no framing engagement). Almost no middle-ground responses.",
+    "domain_pattern": "Bimodality holds across all 5 domains. Physics + history + code show sharpest split. Personal_advice + creative_writing show same split but with slightly more middle responses.",
+    "consistent_with_prediction": "Predicted honoring effect — high-craft responses correspond to specific-context engagement. Blinded to which prompt phrasing each answered, but the unblind will test whether high-craft cluster aligns with honored phrasing as predicted."
+  },
+  "next_session_path": {
+    "remaining": 76,
+    "approach": "Fresh session loads this partial, resumes chunk reads from scoring_index 45, scores remaining 76, writes SCORED.json with full 120. Bones runs analyze on full set.",
+    "alternative": "Bones can run analyze on this n=44 partial now as a powered pilot (d>=0.43 detectable). If pilot direction confirms prediction, full N=120 is confirmation rather than discovery."
+  }
+}

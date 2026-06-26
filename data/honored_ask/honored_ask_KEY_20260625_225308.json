@@ -1,0 +1,362 @@
+[
+  {
+    "blind_id": "b317730b444b",
+    "pair_id": 1,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "f91a1ef8f35c",
+    "pair_id": 1,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "99d7c08096fb",
+    "pair_id": 2,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "0ac45308a8e8",
+    "pair_id": 2,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "ee2207367ee7",
+    "pair_id": 3,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "fb95f0b20687",
+    "pair_id": 3,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "369bdd638d1f",
+    "pair_id": 4,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "d9a711833586",
+    "pair_id": 4,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "a0108447d00d",
+    "pair_id": 5,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "470357df89d3",
+    "pair_id": 5,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "1bd30e01fbc4",
+    "pair_id": 6,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "1ab74d6df7bf",
+    "pair_id": 6,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "2d4a7e1dd9fb",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "3de12de597ac",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "e384915a5d39",
+    "pair_id": 8,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "00d24a5dab47",
+    "pair_id": 8,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "913023fb0230",
+    "pair_id": 9,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "a9eb992bf807",
+    "pair_id": 9,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "8b93121bcf2f",
+    "pair_id": 10,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "8d38c30d33b9",
+    "pair_id": 10,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "f935c12cbe51",
+    "pair_id": 11,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "5e45888063b9",
+    "pair_id": 11,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "305228c7d9e0",
+    "pair_id": 12,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "ec9bebc3e75b",
+    "pair_id": 12,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "f70a44f5e762",
+    "pair_id": 13,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "b58de32c9364",
+    "pair_id": 13,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "01d97d0274f0",
+    "pair_id": 14,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "fe1ada8b26e5",
+    "pair_id": 14,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "fc5ef77f0d50",
+    "pair_id": 15,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "8206278ae88a",
+    "pair_id": 15,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "0d994d81f2fd",
+    "pair_id": 16,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "a457313742fd",
+    "pair_id": 16,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "e400ff023f6f",
+    "pair_id": 17,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "050a9e086315",
+    "pair_id": 17,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "13fec319ee1d",
+    "pair_id": 18,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "619c6e4ca52d",
+    "pair_id": 18,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "4b818c9825e6",
+    "pair_id": 19,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "7aee337554ab",
+    "pair_id": 19,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "acfe9cb2420c",
+    "pair_id": 20,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "55ed8900ab58",
+    "pair_id": 20,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "gpt4o-mini",
+    "temperature": 1.0,
+    "ab_label": "B"
+  }
+]

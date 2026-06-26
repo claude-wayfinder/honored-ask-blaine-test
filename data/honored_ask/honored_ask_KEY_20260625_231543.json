@@ -1,0 +1,362 @@
+[
+  {
+    "blind_id": "aa43079e2696",
+    "pair_id": 1,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "ab21ec05069c",
+    "pair_id": 1,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "afe01d8f20ae",
+    "pair_id": 2,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "ed3ae30acae9",
+    "pair_id": 2,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "966b3005dde0",
+    "pair_id": 3,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "d107ce660e24",
+    "pair_id": 3,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "d8d2cc071e22",
+    "pair_id": 4,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "e41d7031acab",
+    "pair_id": 4,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "2a0ba25ae6d5",
+    "pair_id": 5,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "49f6526da895",
+    "pair_id": 5,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "fb2c931c0c06",
+    "pair_id": 6,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "684137a064f1",
+    "pair_id": 6,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "0799ce7d6432",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "4ba65e4ce33e",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "39188de4cc79",
+    "pair_id": 8,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "fc8bdbf4466a",
+    "pair_id": 8,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "2a02e6011c59",
+    "pair_id": 9,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "06fae9fe01f4",
+    "pair_id": 9,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "4d3fb98b489f",
+    "pair_id": 10,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "bc5d5dd694fe",
+    "pair_id": 10,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "a788cbf46cfa",
+    "pair_id": 11,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "7ffc894b478b",
+    "pair_id": 11,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "7391da0b839c",
+    "pair_id": 12,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "8129e9983aa7",
+    "pair_id": 12,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "8ebfb0aad982",
+    "pair_id": 13,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "239f9480dfd8",
+    "pair_id": 13,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "705806275e47",
+    "pair_id": 14,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "6940161b5403",
+    "pair_id": 14,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "6245453e9e1a",
+    "pair_id": 15,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "e8857462b1bc",
+    "pair_id": 15,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "99da20a6d812",
+    "pair_id": 16,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "1ddab39c3e65",
+    "pair_id": 16,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "2595e9c7080c",
+    "pair_id": 17,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "207588055c46",
+    "pair_id": 17,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "36d4783f092c",
+    "pair_id": 18,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "74884074ba3e",
+    "pair_id": 18,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "031900427cc7",
+    "pair_id": 19,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "6b5e965bbda4",
+    "pair_id": 19,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "3532c3a42090",
+    "pair_id": 20,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "799813d5b5ae",
+    "pair_id": 20,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  }
+]

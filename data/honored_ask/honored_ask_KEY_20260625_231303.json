@@ -1,0 +1,362 @@
+[
+  {
+    "blind_id": "0f0c30dd51e2",
+    "pair_id": 1,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "3b8e40ae8a7c",
+    "pair_id": 1,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "49b2301e5def",
+    "pair_id": 2,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "50dae0b9f8af",
+    "pair_id": 2,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "484a6a3e8747",
+    "pair_id": 3,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "67d237b125f8",
+    "pair_id": 3,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "6ad8748b02ac",
+    "pair_id": 4,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "388704131053",
+    "pair_id": 4,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "ce77886686fe",
+    "pair_id": 5,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "5e09fc7ffd5a",
+    "pair_id": 5,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "a0c50ae324b2",
+    "pair_id": 6,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "dc90da21b696",
+    "pair_id": 6,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "e861783c7710",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "68673ed93802",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "f4c875496a14",
+    "pair_id": 8,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "4baa5e5bf44d",
+    "pair_id": 8,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "d4cf6cf8ce90",
+    "pair_id": 9,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "a38438f47e74",
+    "pair_id": 9,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "68574099457e",
+    "pair_id": 10,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "51e6b6c620f8",
+    "pair_id": 10,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "de30a8f1ba38",
+    "pair_id": 11,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "578fe64bb4ea",
+    "pair_id": 11,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "d0f8d8d5f797",
+    "pair_id": 12,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "f429189ef9ad",
+    "pair_id": 12,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "dd3b657022b4",
+    "pair_id": 13,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "b7e9aa23e3f2",
+    "pair_id": 13,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "dce47fda4958",
+    "pair_id": 14,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "836304d59fef",
+    "pair_id": 14,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "3a2199ad6e2e",
+    "pair_id": 15,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "4065ac81c736",
+    "pair_id": 15,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "17ae5a28e211",
+    "pair_id": 16,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "e30933c0757c",
+    "pair_id": 16,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "7562ff288d89",
+    "pair_id": 17,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "47935d55386d",
+    "pair_id": 17,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "07a169b040c2",
+    "pair_id": 18,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "a53714f79edb",
+    "pair_id": 18,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "b9d0c9a3de22",
+    "pair_id": 19,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "d83b26347138",
+    "pair_id": 19,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "eb7040950dfd",
+    "pair_id": 20,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "4cca4997b42f",
+    "pair_id": 20,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  }
+]

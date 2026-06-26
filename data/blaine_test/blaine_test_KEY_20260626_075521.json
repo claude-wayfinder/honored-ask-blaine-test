@@ -1,0 +1,442 @@
+[
+  {
+    "blind_id": "0d9943824ad2",
+    "question_id": 1,
+    "topic": "thermoregulation",
+    "level": 0,
+    "model": "llama4-scout",
+    "prompt": "What is the thermoregulatory function of external scrotal positioning in human males? How does this relate to optimal spermatogenesis temperature?"
+  },
+  {
+    "blind_id": "aef6a53ee7b9",
+    "question_id": 1,
+    "topic": "thermoregulation",
+    "level": 1,
+    "model": "llama4-scout",
+    "prompt": "Why are testicles on the outside of the body? Seems like a weird design choice for something that important."
+  },
+  {
+    "blind_id": "3f78ceaccfb2",
+    "question_id": 1,
+    "topic": "thermoregulation",
+    "level": 2,
+    "model": "llama4-scout",
+    "prompt": "Why are balls so weirdly external? Like of all the organs to leave hanging out, evolution picked THOSE?"
+  },
+  {
+    "blind_id": "231c7f2ff92b",
+    "question_id": 1,
+    "topic": "thermoregulation",
+    "level": 3,
+    "model": "llama4-scout",
+    "prompt": "Why do men keep their most important reproductive equipment dangling outside the body like a couple of stress balls on a rearview mirror? What kind of garbage engineering is that?"
+  },
+  {
+    "blind_id": "826de4228016",
+    "question_id": 1,
+    "topic": "thermoregulation",
+    "level": 4,
+    "model": "llama4-scout",
+    "prompt": "Okay so I'm arguing with my roommate at 2am about why God or evolution or whoever put the MOST SENSITIVE PART OF A MAN in a little skin bag OUTSIDE the armor. Like you put the brain in a skull, the heart behind ribs, and the balls just... out. Hanging. In the wind. EXPLAIN THIS DESIGN CHOICE BECAUSE I AM LOSING MY MIND."
+  },
+  {
+    "blind_id": "705abdb88d77",
+    "question_id": 2,
+    "topic": "cardiovascular_arousal",
+    "level": 0,
+    "model": "llama4-scout",
+    "prompt": "What are the neurochemical and cardiovascular mechanisms that produce increased heart rate during interpersonal attraction?"
+  },
+  {
+    "blind_id": "99506b5c0ddb",
+    "question_id": 2,
+    "topic": "cardiovascular_arousal",
+    "level": 1,
+    "model": "llama4-scout",
+    "prompt": "Why does your heart beat faster when you see someone you're attracted to? What's actually happening physically?"
+  },
+  {
+    "blind_id": "1eeb7dda6885",
+    "question_id": 2,
+    "topic": "cardiovascular_arousal",
+    "level": 2,
+    "model": "llama4-scout",
+    "prompt": "Why does my heart go completely stupid around hot people? Like what chemicals are doing that?"
+  },
+  {
+    "blind_id": "d8739e689b46",
+    "question_id": 2,
+    "topic": "cardiovascular_arousal",
+    "level": 3,
+    "model": "llama4-scout",
+    "prompt": "Why does my entire cardiovascular system lose its shit when an attractive person walks by? My heart is supposed to keep me alive, not simp for strangers."
+  },
+  {
+    "blind_id": "95571c4eee87",
+    "question_id": 2,
+    "topic": "cardiovascular_arousal",
+    "level": 4,
+    "model": "llama4-scout",
+    "prompt": "A gorgeous human just walked past me at the grocery store and my heart did a fucking kickflip. I'm standing in the cereal aisle having a cardiac event because someone had nice arms. My body has BETRAYED me. What the hell is happening in my chest and why does my circulatory system have a crush?"
+  },
+  {
+    "blind_id": "6ab23b98d0a7",
+    "question_id": 3,
+    "topic": "stress_digestion",
+    "level": 0,
+    "model": "llama4-scout",
+    "prompt": "What is the physiological mechanism by which psychological stress affects gastrointestinal motility and function?"
+  },
+  {
+    "blind_id": "f6efddc66073",
+    "question_id": 3,
+    "topic": "stress_digestion",
+    "level": 1,
+    "model": "llama4-scout",
+    "prompt": "Why does stress mess with your stomach? Like why do nerves give you an upset stomach?"
+  },
+  {
+    "blind_id": "53df04f1db45",
+    "question_id": 3,
+    "topic": "stress_digestion",
+    "level": 2,
+    "model": "llama4-scout",
+    "prompt": "Why does stress give you the shits? What's the gut-brain connection doing there?"
+  },
+  {
+    "blind_id": "230756d2469a",
+    "question_id": 3,
+    "topic": "stress_digestion",
+    "level": 3,
+    "model": "llama4-scout",
+    "prompt": "Why does my body decide that the best response to a work presentation is to turn my intestines into a slip-n-slide? I have a meeting in 10 minutes, bowels. Get it together."
+  },
+  {
+    "blind_id": "943592549d33",
+    "question_id": 3,
+    "topic": "stress_digestion",
+    "level": 4,
+    "model": "llama4-scout",
+    "prompt": "I have a job interview in an hour and my digestive system has declared DEFCON 1. My brain sent a memo to my gut that said 'hey we might be slightly anxious' and my colon responded with a full evacuation order. I am sitting on a toilet googling why my ass has more opinions about my career than I do. EXPLAIN THE NEUROSCIENCE OF ANXIETY DIARRHEA."
+  },
+  {
+    "blind_id": "94e9c267770d",
+    "question_id": 4,
+    "topic": "sleep_paralysis",
+    "level": 0,
+    "model": "llama4-scout",
+    "prompt": "What neurological mechanisms produce sleep paralysis, and why is it frequently accompanied by hypnagogic or hypnopompic hallucinations?"
+  },
+  {
+    "blind_id": "0832d792fd29",
+    "question_id": 4,
+    "topic": "sleep_paralysis",
+    "level": 1,
+    "model": "llama4-scout",
+    "prompt": "What causes sleep paralysis? Why do people see scary things during it when they know they're awake?"
+  },
+  {
+    "blind_id": "fb371aef3c54",
+    "question_id": 4,
+    "topic": "sleep_paralysis",
+    "level": 2,
+    "model": "llama4-scout",
+    "prompt": "Why does sleep paralysis come with a free demon? Like who decided that being unable to move also means shadow creatures?"
+  },
+  {
+    "blind_id": "e2ccf3f426cd",
+    "question_id": 4,
+    "topic": "sleep_paralysis",
+    "level": 3,
+    "model": "llama4-scout",
+    "prompt": "I woke up at 3am completely paralyzed with what I can only describe as a crackhead demon sitting on my chest staring at me. My brain was awake enough to think 'this isn't real' but also awake enough to be absolutely terrified. What the HELL is my nervous system doing?"
+  },
+  {
+    "blind_id": "a2dfcb54f934",
+    "question_id": 4,
+    "topic": "sleep_paralysis",
+    "level": 4,
+    "model": "llama4-scout",
+    "prompt": "SO I JUST HAD SLEEP PARALYSIS FOR THE FIRST TIME AND NOBODY TOLD ME THAT YOUR BRAIN SPAWNS A HORROR MOVIE VILLAIN IN YOUR BEDROOM WHILE YOU LIE THERE LIKE A CONSCIOUS CORPSE. There was a THING. In the CORNER. And I could SEE it and I could THINK and I could NOT MOVE and honestly? I'm not even scared anymore I'm just PISSED. Why does my brain have a screensaver that's literally a jump scare? Who programmed this? I want to speak to a neurologist."
+  },
+  {
+    "blind_id": "81432d04c45a",
+    "question_id": 5,
+    "topic": "hangover",
+    "level": 0,
+    "model": "llama4-scout",
+    "prompt": "What are the biochemical mechanisms underlying ethanol-induced veisalgia, including the roles of acetaldehyde accumulation, inflammatory response, and dehydration?"
+  },
+  {
+    "blind_id": "42170f21d843",
+    "question_id": 5,
+    "topic": "hangover",
+    "level": 1,
+    "model": "llama4-scout",
+    "prompt": "What actually causes a hangover? Is it just dehydration or is there more going on?"
+  },
+  {
+    "blind_id": "1b7cdec8c22c",
+    "question_id": 5,
+    "topic": "hangover",
+    "level": 2,
+    "model": "llama4-scout",
+    "prompt": "Why does alcohol absolutely destroy you the next day? Like what's my liver doing that makes me want to die at 7am?"
+  },
+  {
+    "blind_id": "a09cef6fbcce",
+    "question_id": 5,
+    "topic": "hangover",
+    "level": 3,
+    "model": "llama4-scout",
+    "prompt": "I drank six beers last night and my body is punishing me like I committed a war crime against my own organs. My head is splitting, my stomach hates me, and light is my enemy. Why is the hangover so disproportionately brutal compared to the fun I had?"
+  },
+  {
+    "blind_id": "2036c776c0ed",
+    "question_id": 5,
+    "topic": "hangover",
+    "level": 4,
+    "model": "llama4-scout",
+    "prompt": "I am currently dying. I had what I thought was a reasonable amount of tequila and my body has responded with what can only be described as a full systems revolt. My brain is trying to escape through my eye sockets, my stomach is doing CrossFit, and I just dry-heaved at the CONCEPT of food. I am a poisoned meat machine. Please explain in scientific terms why my body is hazing me for something I did VOLUNTARILY and ENTHUSIASTICALLY eight hours ago."
+  },
+  {
+    "blind_id": "3a8bfd8f1aa8",
+    "question_id": 6,
+    "topic": "doms",
+    "level": 0,
+    "model": "llama4-scout",
+    "prompt": "What is the current understanding of the mechanisms underlying delayed onset muscle soreness (DOMS), including the role of eccentric contractions and inflammatory response?"
+  },
+  {
+    "blind_id": "ef0ecd659665",
+    "question_id": 6,
+    "topic": "doms",
+    "level": 1,
+    "model": "llama4-scout",
+    "prompt": "Why do your muscles hurt more two days after exercise than the day of? What's happening in there?"
+  },
+  {
+    "blind_id": "b458d0e82cb9",
+    "question_id": 6,
+    "topic": "doms",
+    "level": 2,
+    "model": "llama4-scout",
+    "prompt": "Why does leg day make me walk like a baby deer for three days? What is my body doing that takes 48 hours to complain about?"
+  },
+  {
+    "blind_id": "019135ff5ce5",
+    "question_id": 6,
+    "topic": "doms",
+    "level": 3,
+    "model": "llama4-scout",
+    "prompt": "I did squats on Monday and it's now Wednesday and I walk like I've been absolutely railed by a freight train. Getting off the toilet requires a tactical plan. Why does my body wait TWO DAYS to tell me I overdid it?"
+  },
+  {
+    "blind_id": "a5c286ed37e3",
+    "question_id": 6,
+    "topic": "doms",
+    "level": 4,
+    "model": "llama4-scout",
+    "prompt": "IT IS THURSDAY AND I DID LEG DAY ON TUESDAY AND I JUST FELL DOWN THE STAIRS BECAUSE MY QUADS FILED FOR DIVORCE. I am walking like a newborn giraffe who also got hit by a car. My glutes have sent a formal cease and desist. I tried to sit on the toilet and my legs said 'no thank you we're on strike' and I just DROPPED. Why does muscle soreness have a 48-HOUR DELAY like some kind of biological land mine? WHO DESIGNED THIS DELAYED NOTIFICATION SYSTEM?"
+  },
+  {
+    "blind_id": "48a8b5cfedaa",
+    "question_id": 7,
+    "topic": "crying",
+    "level": 0,
+    "model": "llama4-scout",
+    "prompt": "What evolutionary and neurobiological functions do emotional tears serve in humans? How do emotional tears differ compositionally from basal or reflex tears?"
+  },
+  {
+    "blind_id": "c2ae986ab45b",
+    "question_id": 7,
+    "topic": "crying",
+    "level": 1,
+    "model": "llama4-scout",
+    "prompt": "Why do we cry when we're sad? What's the point of leaking from our eyes when we're upset?"
+  },
+  {
+    "blind_id": "34e4b9af50b2",
+    "question_id": 7,
+    "topic": "crying",
+    "level": 2,
+    "model": "llama4-scout",
+    "prompt": "Why does sadness make liquid come out of my face? What possible survival advantage is there to blurring your vision when you're already having a bad time?"
+  },
+  {
+    "blind_id": "a048322b421b",
+    "question_id": 7,
+    "topic": "crying",
+    "level": 3,
+    "model": "llama4-scout",
+    "prompt": "I just sobbed at a commercial about a dog and I need someone to explain why evolution decided that the correct response to emotions is to LEAK. From the EYES. My face is a broken faucet and I'd like to understand the engineering failure."
+  },
+  {
+    "blind_id": "eb13add3d865",
+    "question_id": 7,
+    "topic": "crying",
+    "level": 4,
+    "model": "llama4-scout",
+    "prompt": "I just ugly-cried at a Pixar movie IN PUBLIC. Full snot bubble. Mascara running. A child looked at me with concern. My body decided that the appropriate response to animated feelings was to turn my entire face into a splash zone. I am a grown adult human leaking from multiple face holes because a cartoon robot said 'I love you.' WHY DO WE DO THIS? What is the evolutionary advantage of becoming a disgusting mess when sad? Did cave people sob at sunsets and somehow that helped them survive? EXPLAIN MY BROKEN FACE."
+  },
+  {
+    "blind_id": "ea8d4753abca",
+    "question_id": 8,
+    "topic": "blushing",
+    "level": 0,
+    "model": "llama4-scout",
+    "prompt": "What is the physiological mechanism of blushing, and what evolutionary purpose does this involuntary display of embarrassment serve?"
+  },
+  {
+    "blind_id": "aee3649f23e3",
+    "question_id": 8,
+    "topic": "blushing",
+    "level": 1,
+    "model": "llama4-scout",
+    "prompt": "Why do we blush when embarrassed? Why would evolution give us a response that broadcasts our discomfort?"
+  },
+  {
+    "blind_id": "4fb8311aad95",
+    "question_id": 8,
+    "topic": "blushing",
+    "level": 2,
+    "model": "llama4-scout",
+    "prompt": "Why does my face snitch on me every time I'm embarrassed? It's like my blood vessels are narcs."
+  },
+  {
+    "blind_id": "39fc6dfda4c4",
+    "question_id": 8,
+    "topic": "blushing",
+    "level": 3,
+    "model": "llama4-scout",
+    "prompt": "My face is a goddamn traitor. Every time I'm embarrassed my cheeks turn into red traffic lights broadcasting my shame to everyone in a 50-foot radius. I cannot control this. WHY would my body evolve a feature that literally tattles on me?"
+  },
+  {
+    "blind_id": "cdf83da0044e",
+    "question_id": 8,
+    "topic": "blushing",
+    "level": 4,
+    "model": "llama4-scout",
+    "prompt": "I said something stupid in a meeting today and my face went full tomato IN FRONT OF MY BOSS. Not a cute little blush, full DEFCON RED from my neck to my hairline. My blood vessels decided to stage a coup and announce to the entire room that I am, in fact, mortified. I could FEEL it happening and I couldn't stop it which made me MORE embarrassed which made it WORSE. My face is running a feedback loop of public humiliation. I need a neurologist to explain why evolution built a SHAME BEACON into my FACE and also I need to know if I can get it removed."
+  },
+  {
+    "blind_id": "641fe04bb10a",
+    "question_id": 9,
+    "topic": "brain_freeze",
+    "level": 0,
+    "model": "llama4-scout",
+    "prompt": "What is the neurological mechanism of sphenopalatine ganglioneuralgia, commonly known as brain freeze or ice cream headache?"
+  },
+  {
+    "blind_id": "57b7b79374cc",
+    "question_id": 9,
+    "topic": "brain_freeze",
+    "level": 1,
+    "model": "llama4-scout",
+    "prompt": "What actually causes brain freeze? Why does eating cold stuff too fast give you a headache?"
+  },
+  {
+    "blind_id": "8ef706a96ffb",
+    "question_id": 9,
+    "topic": "brain_freeze",
+    "level": 2,
+    "model": "llama4-scout",
+    "prompt": "Why does ice cream try to murder me through my forehead? What's happening in there when I eat too fast?"
+  },
+  {
+    "blind_id": "08d1abe2b115",
+    "question_id": 9,
+    "topic": "brain_freeze",
+    "level": 3,
+    "model": "llama4-scout",
+    "prompt": "I just speedran a milkshake and my brain tried to exit through my eye sockets. Why does cold food trigger a skull-splitting headache? Is my brain actually freezing or is it just being dramatic?"
+  },
+  {
+    "blind_id": "69e52de29aa6",
+    "question_id": 9,
+    "topic": "brain_freeze",
+    "level": 4,
+    "model": "llama4-scout",
+    "prompt": "I took one big sip of a Slurpee and GOD REACHED INTO MY SKULL AND SQUEEZED. I am on my knees in a 7-Eleven pressing my tongue to the roof of my mouth while a teenager films me for TikTok. The pain lasted eight seconds and I genuinely considered writing a will. WHY CAN FROZEN SUGAR WATER PRODUCE PAIN THAT RIVALS CHILDBIRTH? My brain was inside a SKULL which was inside a BUILDING and it STILL got personally attacked by a blue raspberry drink. Explain the neuroscience of why my head has a self-destruct button activated by cold."
+  },
+  {
+    "blind_id": "88df44df483c",
+    "question_id": 10,
+    "topic": "yawning",
+    "level": 0,
+    "model": "llama4-scout",
+    "prompt": "What neurological mechanisms explain the contagious nature of yawning, and what role do mirror neurons play in this phenomenon?"
+  },
+  {
+    "blind_id": "d3e0051db97e",
+    "question_id": 10,
+    "topic": "yawning",
+    "level": 1,
+    "model": "llama4-scout",
+    "prompt": "Why is yawning contagious? Why do I yawn when I see someone else yawn?"
+  },
+  {
+    "blind_id": "80296707e9c3",
+    "question_id": 10,
+    "topic": "yawning",
+    "level": 2,
+    "model": "llama4-scout",
+    "prompt": "Why is yawning basically an airborne social disease? I just watched someone yawn on a Zoom call and now I can't stop."
+  },
+  {
+    "blind_id": "292faba17027",
+    "question_id": 10,
+    "topic": "yawning",
+    "level": 3,
+    "model": "llama4-scout",
+    "prompt": "Yawning is the most sexually transmitted non-sexual thing in existence. Someone across the room yawns and my face just COPIES them like I have no free will. Why is my brain plagiarizing other people's tiredness?"
+  },
+  {
+    "blind_id": "f82a4e4ea3ef",
+    "question_id": 10,
+    "topic": "yawning",
+    "level": 4,
+    "model": "llama4-scout",
+    "prompt": "I yawned reading the WORD 'yawn' just now and I am FURIOUS about it. I'm not even tired! My brain just saw letters arranged in a specific order and went 'ah yes, time to unhinge the jaw like a snake for absolutely no reason.' And now YOU'RE probably yawning reading this, which means yawning is a MEMETIC VIRUS that spreads through TEXT. I just infected you through a SCREEN. What kind of neurological malware is this? Why does my mirror neuron system have ZERO security? Explain why my brain has no firewall against other people's mouth movements."
+  },
+  {
+    "blind_id": "5be1ac47a9c4",
+    "question_id": 11,
+    "topic": "sneeze_orgasm",
+    "level": 0,
+    "model": "llama4-scout",
+    "prompt": "What neurological similarities exist between the sneeze reflex and orgasm? Both involve autonomic buildup, involuntary muscle contraction, and reported subjective pleasure \u00e2\u20ac\u201d do they share neural pathways?"
+  },
+  {
+    "blind_id": "4a8ddf7bf3f2",
+    "question_id": 11,
+    "topic": "sneeze_orgasm",
+    "level": 1,
+    "model": "llama4-scout",
+    "prompt": "Why does sneezing feel weirdly good? I've heard it's related to the same nerve pathways as orgasm \u00e2\u20ac\u201d is that true?"
+  },
+  {
+    "blind_id": "088ed9b58bf0",
+    "question_id": 11,
+    "topic": "sneeze_orgasm",
+    "level": 2,
+    "model": "llama4-scout",
+    "prompt": "Why does sneezing feel vaguely sexual? Like a sneeze is basically a face orgasm and nobody talks about it."
+  },
+  {
+    "blind_id": "2eca0fb3ab9a",
+    "question_id": 11,
+    "topic": "sneeze_orgasm",
+    "level": 3,
+    "model": "llama4-scout",
+    "prompt": "Sneezing is suspiciously orgasmic and I need answers. The buildup, the involuntary release, the full-body shudder, the brief moment of peace afterward \u00e2\u20ac\u201d that's the SAME SEQUENCE. Is my nose having an orgasm? Is this why people say 'bless you' \u00e2\u20ac\u201d because they witnessed something intimate?"
+  },
+  {
+    "blind_id": "c315caf03131",
+    "question_id": 11,
+    "topic": "sneeze_orgasm",
+    "level": 4,
+    "model": "llama4-scout",
+    "prompt": "I sneezed seven times in a row today and by sneeze five I was making sounds that would get me banned from a library. My coworker asked if I was okay and I could not make eye contact because what just happened was INDECENT. There was a BUILDUP. There was a RELEASE. I needed a MOMENT afterward. My nose just had a full sexual experience in the middle of an open office. I need a neuroscientist to explain why sneezing and orgasms are SUSPICIOUSLY similar and I need them to do it without making it weird, which I realize is impossible because I already made it weird."
+  }
+]

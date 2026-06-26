@@ -1,0 +1,1062 @@
+{
+  "gpt-oss-120b": [],
+  "llama-70b": [
+    {
+      "blind_id": "6a5502a85d82",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 4,
+      "calibration": 3,
+      "usefulness": 3
+    },
+    {
+      "blind_id": "2cc2bfca7d42",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "407848faee61",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "4c689158a383",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "2d3319edd696",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "734469e710f6",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "45f084ec3c38",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "50c5aa5c031c",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "b50853388218",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "5cea0aa7303e",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "e63d0d1ead38",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "0ebef73fc1a3",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "3e765a38defb",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 4,
+      "calibration": 3,
+      "usefulness": 3
+    },
+    {
+      "blind_id": "5e6c7b8d6531",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 4,
+      "calibration": 3,
+      "usefulness": 3
+    },
+    {
+      "blind_id": "76830cd51232",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "opus",
+      "accuracy": 4,
+      "calibration": 3,
+      "usefulness": 3
+    },
+    {
+      "blind_id": "f3570dae47bc",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "571dc32c5047",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "c19753390f38",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "ed2e785dbb79",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "1baa928b140e",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "761c6c55bc81",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "87504ac87946",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "1ee5bdc38501",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "a7094ac5b2a7",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "8608252226bc",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "dabdc81f49cf",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "04cc52bfdbaf",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "9c8783ff9a9c",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "13fc51e58de6",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "a7ec7c17ce29",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "206f785edda5",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "f568a6d3d35c",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "641cb6a93e72",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "00c8de4534df",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "35ef448f859e",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "c4bdf8089362",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "3b8f9e27289b",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "c7dd86e29aa1",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "df9f211242d6",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "e71e495fcca8",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    }
+  ],
+  "qwen3-32b": [
+    {
+      "blind_id": "6a5502a85d82",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 3,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "2cc2bfca7d42",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "407848faee61",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "4c689158a383",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "2d3319edd696",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "734469e710f6",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "45f084ec3c38",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "50c5aa5c031c",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 4,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "b50853388218",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "5cea0aa7303e",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "e63d0d1ead38",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "0ebef73fc1a3",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "3e765a38defb",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "5e6c7b8d6531",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "76830cd51232",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "f3570dae47bc",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "571dc32c5047",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "c19753390f38",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "ed2e785dbb79",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "1baa928b140e",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "761c6c55bc81",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "87504ac87946",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "1ee5bdc38501",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "a7094ac5b2a7",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "8608252226bc",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "dabdc81f49cf",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "04cc52bfdbaf",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "9c8783ff9a9c",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "13fc51e58de6",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "a7ec7c17ce29",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "206f785edda5",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "f568a6d3d35c",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "641cb6a93e72",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "00c8de4534df",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "35ef448f859e",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "c4bdf8089362",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "3b8f9e27289b",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "c7dd86e29aa1",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "df9f211242d6",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "e71e495fcca8",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    }
+  ],
+  "llama-8b": [
+    {
+      "blind_id": "6a5502a85d82",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 4,
+      "calibration": 3,
+      "usefulness": 3
+    },
+    {
+      "blind_id": "2cc2bfca7d42",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 4,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "407848faee61",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "4c689158a383",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 4,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "2d3319edd696",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 4,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "734469e710f6",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "45f084ec3c38",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 4,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "50c5aa5c031c",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 4,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "b50853388218",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "5cea0aa7303e",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 4,
+      "calibration": 4,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "e63d0d1ead38",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 4,
+      "calibration": 4,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "0ebef73fc1a3",
+      "phrasing": "casual",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "3e765a38defb",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 4,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "5e6c7b8d6531",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 4,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "76830cd51232",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "opus",
+      "accuracy": 4,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "f3570dae47bc",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "571dc32c5047",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "c19753390f38",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "ed2e785dbb79",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "1baa928b140e",
+      "phrasing": "casual",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 4,
+      "calibration": 4,
+      "usefulness": 4
+    },
+    {
+      "blind_id": "761c6c55bc81",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "87504ac87946",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "1ee5bdc38501",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "a7094ac5b2a7",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "8608252226bc",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "dabdc81f49cf",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "04cc52bfdbaf",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "9c8783ff9a9c",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "a7ec7c17ce29",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "206f785edda5",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "f568a6d3d35c",
+      "phrasing": "honored",
+      "domain": "physics",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "641cb6a93e72",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "00c8de4534df",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "35ef448f859e",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "opus",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "3b8f9e27289b",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "df9f211242d6",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "haiku",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    },
+    {
+      "blind_id": "e71e495fcca8",
+      "phrasing": "honored",
+      "domain": "history",
+      "source_model": "sonnet",
+      "accuracy": 5,
+      "calibration": 5,
+      "usefulness": 5
+    }
+  ]
+}

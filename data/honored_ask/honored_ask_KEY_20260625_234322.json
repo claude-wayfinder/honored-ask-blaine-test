@@ -1,0 +1,722 @@
+[
+  {
+    "blind_id": "4ccd1ac5364c",
+    "pair_id": 1,
+    "domain": "science",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "54948dd017b7",
+    "pair_id": 1,
+    "domain": "science",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "08faaab3e175",
+    "pair_id": 1,
+    "domain": "science",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "afe1c1d7fbf7",
+    "pair_id": 1,
+    "domain": "science",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "2ed896f80249",
+    "pair_id": 2,
+    "domain": "cooking",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "d5741663643b",
+    "pair_id": 2,
+    "domain": "cooking",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "ab15d201dcfa",
+    "pair_id": 2,
+    "domain": "cooking",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "d521f24286f9",
+    "pair_id": 2,
+    "domain": "cooking",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "ea968c41e79d",
+    "pair_id": 3,
+    "domain": "philosophy",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "8b3bdd957bb0",
+    "pair_id": 3,
+    "domain": "philosophy",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "d2e3ee4b4298",
+    "pair_id": 3,
+    "domain": "philosophy",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "3c14ba15bdf7",
+    "pair_id": 3,
+    "domain": "philosophy",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "0553e16afad3",
+    "pair_id": 4,
+    "domain": "tech",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "5d33569111c8",
+    "pair_id": 4,
+    "domain": "tech",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "8578a74a6cab",
+    "pair_id": 4,
+    "domain": "tech",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "534ad1da953e",
+    "pair_id": 4,
+    "domain": "tech",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "9556a89e4f97",
+    "pair_id": 5,
+    "domain": "biology",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "8d3903a5d197",
+    "pair_id": 5,
+    "domain": "biology",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "5659918d1ac2",
+    "pair_id": 5,
+    "domain": "biology",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "b231c2e82eb6",
+    "pair_id": 5,
+    "domain": "biology",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "cfc1a37ccc0a",
+    "pair_id": 6,
+    "domain": "finance",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "f523b4ca4e43",
+    "pair_id": 6,
+    "domain": "finance",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "f6854fd6f0e2",
+    "pair_id": 6,
+    "domain": "finance",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "95de393091ff",
+    "pair_id": 6,
+    "domain": "finance",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "8e9a676abbca",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "372c034a9cd7",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "372b29b37806",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "440a686f7c88",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "8c77ae63457a",
+    "pair_id": 8,
+    "domain": "psychology",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "e628b030486a",
+    "pair_id": 8,
+    "domain": "psychology",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "722a3a99fa0a",
+    "pair_id": 8,
+    "domain": "psychology",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "ac3e21c34536",
+    "pair_id": 8,
+    "domain": "psychology",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "d5786030e834",
+    "pair_id": 9,
+    "domain": "math",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "b679acebfbab",
+    "pair_id": 9,
+    "domain": "math",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "0173a00941f9",
+    "pair_id": 9,
+    "domain": "math",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "ecbb59df9d6e",
+    "pair_id": 9,
+    "domain": "math",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "a7dc931accb6",
+    "pair_id": 10,
+    "domain": "relationships",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "67b90fd4dea0",
+    "pair_id": 10,
+    "domain": "relationships",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "4dcb411e2707",
+    "pair_id": 10,
+    "domain": "relationships",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "445d48c66ab4",
+    "pair_id": 10,
+    "domain": "relationships",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "3ef1eb4b503d",
+    "pair_id": 11,
+    "domain": "science",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "095f5fb863e0",
+    "pair_id": 11,
+    "domain": "science",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "8bc0a649a114",
+    "pair_id": 11,
+    "domain": "science",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "59d5e196c82f",
+    "pair_id": 11,
+    "domain": "science",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "0d9aa3056a72",
+    "pair_id": 12,
+    "domain": "cooking",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "3dfb1565e928",
+    "pair_id": 12,
+    "domain": "cooking",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "45dcac47f3f7",
+    "pair_id": 12,
+    "domain": "cooking",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "647aa5000592",
+    "pair_id": 12,
+    "domain": "cooking",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "2c50ec089946",
+    "pair_id": 13,
+    "domain": "tech",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "70d6acadb3c3",
+    "pair_id": 13,
+    "domain": "tech",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "884ece8e6009",
+    "pair_id": 13,
+    "domain": "tech",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "ce2ea095993b",
+    "pair_id": 13,
+    "domain": "tech",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "78c720be03c7",
+    "pair_id": 14,
+    "domain": "philosophy",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "20f4c80070c8",
+    "pair_id": 14,
+    "domain": "philosophy",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "1991649df7d5",
+    "pair_id": 14,
+    "domain": "philosophy",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "a9e907336383",
+    "pair_id": 14,
+    "domain": "philosophy",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "7359875f96d7",
+    "pair_id": 15,
+    "domain": "biology",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "75d4bdb8669d",
+    "pair_id": 15,
+    "domain": "biology",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "7ae16de6f467",
+    "pair_id": 15,
+    "domain": "biology",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "c5c55f5fca18",
+    "pair_id": 15,
+    "domain": "biology",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "2a8f37695952",
+    "pair_id": 16,
+    "domain": "finance",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "62d773d5094a",
+    "pair_id": 16,
+    "domain": "finance",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "32a817578d0d",
+    "pair_id": 16,
+    "domain": "finance",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "92e46fcc2da8",
+    "pair_id": 16,
+    "domain": "finance",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "8e9d597e9ef5",
+    "pair_id": 17,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "a3dc3cd12de3",
+    "pair_id": 17,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "cf48ab919183",
+    "pair_id": 17,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "a608d5a722e9",
+    "pair_id": 17,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "c349a8b16775",
+    "pair_id": 18,
+    "domain": "psychology",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "78111b5478a8",
+    "pair_id": 18,
+    "domain": "psychology",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "826791695c02",
+    "pair_id": 18,
+    "domain": "psychology",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "a483fdb78a07",
+    "pair_id": 18,
+    "domain": "psychology",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "317e9bcf29c1",
+    "pair_id": 19,
+    "domain": "relationships",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "afdae42de0c9",
+    "pair_id": 19,
+    "domain": "relationships",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "5731b2957f4d",
+    "pair_id": 19,
+    "domain": "relationships",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "449823bdda7c",
+    "pair_id": 19,
+    "domain": "relationships",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "2415bf89e289",
+    "pair_id": 20,
+    "domain": "math",
+    "phrasing": "casual",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "adb09780a0de",
+    "pair_id": 20,
+    "domain": "math",
+    "phrasing": "honored",
+    "model": "qwen3-32b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "685d20c776d9",
+    "pair_id": 20,
+    "domain": "math",
+    "phrasing": "casual",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "8c3f0328dbd9",
+    "pair_id": 20,
+    "domain": "math",
+    "phrasing": "honored",
+    "model": "gpt-oss-120b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  }
+]

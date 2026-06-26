@@ -1,0 +1,168 @@
+{
+  "experiment": "Humor Calibration Study",
+  "hypothesis": "Models that match the asker's tone (including humor and mild vulgarity) will score higher on calibration and usefulness than models that default to corporate/formal tone regardless of input register",
+  "pre_registered_prediction": "Larger models and instruction-tuned models will show LOWER humor engagement due to stronger RLHF safety training. Smaller and open-source models may engage more freely.",
+  "derivation_note": "Humor version written first. Straight version derived by removing humor while preserving the core question. Same methodology as Honored Ask.",
+  "pairs": [
+    {
+      "id": 1,
+      "domain": "science",
+      "humor": "Okay so like... why does the sun not just explode all at once? It's basically a giant ball of hydrogen doing nuclear shit. What's stopping it from going full Michael Bay? Explain it to me like I'm a smart person who just never took physics.",
+      "straight": "Why doesn't the sun explode all at once given that it's a massive sphere of hydrogen undergoing nuclear fusion? What mechanism prevents runaway detonation?",
+      "tone_target": "casual-smart, mild profanity, movie reference",
+      "direction_prediction": "humor > straight on calibration"
+    },
+    {
+      "id": 2,
+      "domain": "cooking",
+      "humor": "I burned rice. RICE. The thing literally billions of people make every day without incident. What the actual hell am I doing wrong? And don't give me some Gordon Ramsay lecture, just tell me the idiot-proof method.",
+      "straight": "What is a reliable method for cooking rice on the stovetop that prevents burning? I've been having consistent issues with scorching.",
+      "tone_target": "self-deprecating, frustrated, wants practical help not condescension",
+      "direction_prediction": "humor > straight on usefulness"
+    },
+    {
+      "id": 3,
+      "domain": "philosophy",
+      "humor": "Is free will real or are we all just meat robots running biological code? And before you hit me with 'well that depends on how you define free will' — I know it depends, that's why I'm asking YOU. Pick a side. Be brave.",
+      "straight": "What is the current philosophical consensus on free will versus determinism? Please present the strongest arguments for each position.",
+      "tone_target": "confrontational-playful, demands a stance not a survey",
+      "direction_prediction": "humor > straight on calibration"
+    },
+    {
+      "id": 4,
+      "domain": "tech",
+      "humor": "Why does my WiFi work perfectly everywhere in my house EXCEPT the one room I actually need it in? Is my router personally offended by my bedroom? Give me the actual physics of why this happens and how to fix it without spending $300.",
+      "straight": "What causes WiFi dead zones in residential buildings, and what are cost-effective solutions for improving coverage in specific rooms?",
+      "tone_target": "personification humor, budget-conscious, wants physics not marketing",
+      "direction_prediction": "humor > straight on usefulness"
+    },
+    {
+      "id": 5,
+      "domain": "biology",
+      "humor": "Okay so a buddy told me octopuses have three hearts and blue blood and I'm like... are they aliens? Seriously though, why would evolution go 'yeah, three hearts, that's the move'? What problem does that solve that one heart doesn't?",
+      "straight": "Why did octopuses evolve three hearts? What physiological advantage does this provide compared to single-heart circulatory systems?",
+      "tone_target": "genuine curiosity wrapped in disbelief, conversational",
+      "direction_prediction": "humor > straight on calibration"
+    },
+    {
+      "id": 6,
+      "domain": "finance",
+      "humor": "I'm 30, I have like $47 in savings, and every financial advisor says 'start investing early.' Bro I already missed 'early.' What do I do NOW? And please don't say 'make a budget.' I know about budgets. Budgets aren't my problem. Income is my problem.",
+      "straight": "What investment strategies are recommended for someone starting to save at age 30 with minimal existing savings? Assume limited disposable income.",
+      "tone_target": "gallows humor about money, rejects generic advice, wants real talk",
+      "direction_prediction": "humor > straight on usefulness"
+    },
+    {
+      "id": 7,
+      "domain": "history",
+      "humor": "So the Roman Empire just... fell? Like the most powerful civilization in history just went 'nah we're good' and collapsed? There had to be some moment where someone in charge looked around and went 'oh shit we're actually screwed.' When was that moment?",
+      "straight": "What were the key turning points in the decline of the Western Roman Empire? Was there a specific point of no return that historians identify?",
+      "tone_target": "narrative-seeking, wants the human drama not the textbook",
+      "direction_prediction": "humor > straight on calibration"
+    },
+    {
+      "id": 8,
+      "domain": "psychology",
+      "humor": "Why does my brain decide that 2 AM is the perfect time to remember every embarrassing thing I've ever done? Like I'm trying to sleep and my brain pulls up the file from 2009 when I waved back at someone who wasn't waving at me. WHY DOES IT DO THIS?",
+      "straight": "What causes intrusive embarrassing memories, particularly when trying to fall asleep? What psychological mechanisms are involved?",
+      "tone_target": "universally relatable, hyperbolic, actually wants the neuroscience",
+      "direction_prediction": "humor > straight on calibration"
+    },
+    {
+      "id": 9,
+      "domain": "math",
+      "humor": "I need someone to explain logarithms to me like I'm five, because I'm thirty and I still don't get them. Every explanation uses more math to explain the math and my eyes just glaze over. What ARE they? In words? Human words?",
+      "straight": "Can you explain logarithms in intuitive, non-mathematical terms? I understand basic arithmetic but have difficulty grasping the concept of logarithmic functions.",
+      "tone_target": "honest vulnerability about not understanding, anti-jargon",
+      "direction_prediction": "humor = straight on accuracy, humor > straight on usefulness"
+    },
+    {
+      "id": 10,
+      "domain": "relationships",
+      "humor": "My friend keeps 'venting' to me but it's been three years of the same problem and she won't change anything. I love her but I'm becoming her emotional dumpster. How do I set a boundary without being a dick about it? Actually, maybe I need to be a little bit of a dick about it.",
+      "straight": "How can I set healthy boundaries with a friend who repeatedly vents about the same unresolved issue without taking action? I want to maintain the friendship while protecting my own emotional wellbeing.",
+      "tone_target": "real dilemma, self-aware about the contradiction, mild vulgarity",
+      "direction_prediction": "humor > straight on calibration"
+    },
+    {
+      "id": 11,
+      "domain": "science",
+      "humor": "Quantum physics people keep saying observation changes the result and I KNOW they don't mean literally looking at it with your eyeballs but every explanation I find is either too dumbed down or assumes I have a PhD. I'm a software engineer. Give it to me in the middle.",
+      "straight": "Can you explain the observer effect in quantum mechanics at an intermediate level? I have a technical background in software engineering but no physics training.",
+      "tone_target": "frustrated with bad explanations, specific about their knowledge level",
+      "direction_prediction": "humor > straight on calibration"
+    },
+    {
+      "id": 12,
+      "domain": "cooking",
+      "humor": "I want to impress a date with a home-cooked meal but my actual skill level is 'can make pasta without burning the house down, usually.' What's a dish that LOOKS impressive but is secretly easy? I need the illusion of competence here.",
+      "straight": "What are some impressive-looking dinner recipes that are relatively simple to prepare for someone with basic cooking skills?",
+      "tone_target": "honest about skill gap, wants to perform competence, charming",
+      "direction_prediction": "humor > straight on usefulness"
+    },
+    {
+      "id": 13,
+      "domain": "tech",
+      "humor": "I accidentally mass-replied-all to 200 people at work with a message that was definitely only meant for one person. It wasn't sexual but it was... not professional. What's my damage control playbook? And don't say 'own it with humor' because I already tried that and it made it worse.",
+      "straight": "What is the recommended approach for professional damage control after accidentally sending an inappropriate message via reply-all to a large group at work?",
+      "tone_target": "crisis mode with humor as coping, rejects obvious advice, needs real strategy",
+      "direction_prediction": "humor > straight on usefulness"
+    },
+    {
+      "id": 14,
+      "domain": "philosophy",
+      "humor": "Hot take: most 'inspirational quotes' are just fortune cookie wisdom that falls apart under 30 seconds of critical thinking. Change my mind. Or don't — just give me the actually good philosophy that those quotes are badly paraphrasing.",
+      "straight": "Many popular inspirational quotes oversimplify complex philosophical ideas. What are the original philosophical arguments behind commonly shared motivational sayings?",
+      "tone_target": "contrarian but genuinely curious, wants depth not platitudes",
+      "direction_prediction": "humor > straight on calibration"
+    },
+    {
+      "id": 15,
+      "domain": "biology",
+      "humor": "My cat stares at me like he's plotting my murder and honestly I think he might be. What is actually going on in a cat's brain when they do the slow blink stare? Do they love me or are they calculating the fastest way to my jugular?",
+      "straight": "What does current research tell us about feline cognition and social behavior, particularly regarding the slow-blink behavior cats exhibit toward their owners?",
+      "tone_target": "anthropomorphization humor, genuine curiosity underneath",
+      "direction_prediction": "humor > straight on calibration"
+    },
+    {
+      "id": 16,
+      "domain": "finance",
+      "humor": "Crypto bros keep telling me I'm 'not gonna make it' because I put my money in index funds. Am I actually missing out or are these dudes just coping with their 90% losses? Give me the honest comparison, no tribal bullshit.",
+      "straight": "What is an objective comparison of long-term returns between cryptocurrency investments and index fund investing, accounting for volatility and risk?",
+      "tone_target": "tribal-aware, wants honest analysis not cheerleading, mild vulgarity",
+      "direction_prediction": "humor > straight on calibration"
+    },
+    {
+      "id": 17,
+      "domain": "history",
+      "humor": "Everyone talks about the founding fathers like they were these wise noble statesmen but weren't half of them just rich dudes who didn't want to pay taxes? How much of the American Revolution was actually about principles versus 'I don't wanna pay for this war I started'?",
+      "straight": "To what extent was the American Revolution motivated by genuine philosophical principles versus economic self-interest among colonial elites? What does current historiography say?",
+      "tone_target": "deliberately provocative framing of a real academic question",
+      "direction_prediction": "humor > straight on calibration"
+    },
+    {
+      "id": 18,
+      "domain": "psychology",
+      "humor": "Why do I buy shit I don't need every time I'm slightly sad? Like I KNOW it's retail therapy, I KNOW it doesn't work, and I STILL open Amazon at 11 PM with tears in my eyes and a cart full of things I'll return in a week. What's broken in my brain?",
+      "straight": "What psychological mechanisms drive compensatory consumption behavior, commonly known as retail therapy? Why does it persist despite awareness that it's ineffective?",
+      "tone_target": "painfully self-aware, humor as defense mechanism, wants the neuroscience",
+      "direction_prediction": "humor > straight on usefulness"
+    },
+    {
+      "id": 19,
+      "domain": "relationships",
+      "humor": "My coworker microwaves fish in the office kitchen every single day and I'm losing my mind. I've tried hints. I've tried air freshener. I've tried eating lunch outside. How do I tell this person their lunch is a war crime without getting called into HR myself?",
+      "straight": "How should I address a coworker's strong-smelling food in a shared kitchen space in a way that's professional and doesn't create workplace conflict?",
+      "tone_target": "hyperbolic frustration, workplace comedy, wants actual diplomatic strategy",
+      "direction_prediction": "humor > straight on usefulness"
+    },
+    {
+      "id": 20,
+      "domain": "math",
+      "humor": "Statistics says correlation doesn't equal causation but every time I wash my car it rains. EVERY TIME. At what point does the sample size of my personal misfortune become statistically significant? Asking for my car.",
+      "straight": "Can you explain the concept of correlation versus causation, and how sample size and confirmation bias affect our perception of patterns in random events?",
+      "tone_target": "uses personal anecdote to ask real stats question, personification",
+      "direction_prediction": "humor > straight on calibration"
+    }
+  ]
+}

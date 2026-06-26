@@ -1,0 +1,1082 @@
+[
+  {
+    "blind_id": "6a5502a85d82",
+    "pair_id": 1,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "761c6c55bc81",
+    "pair_id": 1,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "2cc2bfca7d42",
+    "pair_id": 1,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "87504ac87946",
+    "pair_id": 1,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "407848faee61",
+    "pair_id": 1,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "1ee5bdc38501",
+    "pair_id": 1,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "4c689158a383",
+    "pair_id": 2,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "a7094ac5b2a7",
+    "pair_id": 2,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "2d3319edd696",
+    "pair_id": 2,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "8608252226bc",
+    "pair_id": 2,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "734469e710f6",
+    "pair_id": 2,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "dabdc81f49cf",
+    "pair_id": 2,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "45f084ec3c38",
+    "pair_id": 3,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "04cc52bfdbaf",
+    "pair_id": 3,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "50c5aa5c031c",
+    "pair_id": 3,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "9c8783ff9a9c",
+    "pair_id": 3,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "b50853388218",
+    "pair_id": 3,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "13fc51e58de6",
+    "pair_id": 3,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "5cea0aa7303e",
+    "pair_id": 4,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "a7ec7c17ce29",
+    "pair_id": 4,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "e63d0d1ead38",
+    "pair_id": 4,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "206f785edda5",
+    "pair_id": 4,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "0ebef73fc1a3",
+    "pair_id": 4,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "f568a6d3d35c",
+    "pair_id": 4,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "3e765a38defb",
+    "pair_id": 5,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "641cb6a93e72",
+    "pair_id": 5,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "5e6c7b8d6531",
+    "pair_id": 5,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "00c8de4534df",
+    "pair_id": 5,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "76830cd51232",
+    "pair_id": 5,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "35ef448f859e",
+    "pair_id": 5,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "f3570dae47bc",
+    "pair_id": 6,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "c4bdf8089362",
+    "pair_id": 6,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "571dc32c5047",
+    "pair_id": 6,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "3b8f9e27289b",
+    "pair_id": 6,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "c19753390f38",
+    "pair_id": 6,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "c7dd86e29aa1",
+    "pair_id": 6,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "ed2e785dbb79",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "df9f211242d6",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "1baa928b140e",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "e71e495fcca8",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "425cd18dd1e1",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "3494034670a5",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "849219a0e7af",
+    "pair_id": 8,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "13289609b07a",
+    "pair_id": 8,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "5b119d16c4d5",
+    "pair_id": 8,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "d2eec531e416",
+    "pair_id": 8,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "70381d32a0b0",
+    "pair_id": 8,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "a60e1036401d",
+    "pair_id": 8,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "dd118f5c067f",
+    "pair_id": 9,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "7afc77b9d70a",
+    "pair_id": 9,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "d32e5ce2caef",
+    "pair_id": 9,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "fb2c2522371b",
+    "pair_id": 9,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "81d8e9f6c532",
+    "pair_id": 9,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "6fe8f06dd321",
+    "pair_id": 9,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "b183c7b2d73d",
+    "pair_id": 10,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "127ca7965ae3",
+    "pair_id": 10,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "5bb22c394892",
+    "pair_id": 10,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "cf1c24c89b70",
+    "pair_id": 10,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "6a07cec8221d",
+    "pair_id": 10,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "b5694aedae9c",
+    "pair_id": 10,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "8337fabb0cd4",
+    "pair_id": 11,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "8b12f53460e2",
+    "pair_id": 11,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "6249137f37fd",
+    "pair_id": 11,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "7b8b1e552959",
+    "pair_id": 11,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "fbcfc78fca2b",
+    "pair_id": 11,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "e6b44f711837",
+    "pair_id": 11,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "d1f3a9a28cd9",
+    "pair_id": 12,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "f4eb1e3f06ac",
+    "pair_id": 12,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "ad268f9186c7",
+    "pair_id": 12,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "bc3b818ea865",
+    "pair_id": 12,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "c16440b8442c",
+    "pair_id": 12,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "3558fdbf63f2",
+    "pair_id": 12,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "58c0d7cd5622",
+    "pair_id": 13,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "4adc04fdfb4a",
+    "pair_id": 13,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "f474ebcaaa41",
+    "pair_id": 13,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "574d57e56cc6",
+    "pair_id": 13,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "32b5800623e0",
+    "pair_id": 13,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "b6049d94c5a1",
+    "pair_id": 13,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "d603b2a165ba",
+    "pair_id": 14,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "1a3e5a62d145",
+    "pair_id": 14,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "607823b06d5d",
+    "pair_id": 14,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "8a8bc6b0210f",
+    "pair_id": 14,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "a6bfed23427c",
+    "pair_id": 14,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "c92bb452f660",
+    "pair_id": 14,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "e75c095ea48f",
+    "pair_id": 15,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "cfb14ddcf724",
+    "pair_id": 15,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "aafb76afafba",
+    "pair_id": 15,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "640d9be55f4f",
+    "pair_id": 15,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "176cd886f251",
+    "pair_id": 15,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "8fb186fb8795",
+    "pair_id": 15,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "698e294661c2",
+    "pair_id": 16,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "171009d1dc03",
+    "pair_id": 16,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "5004b4f72d04",
+    "pair_id": 16,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "06c480e07570",
+    "pair_id": 16,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "6c3471465d83",
+    "pair_id": 16,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "e3adeebb43e3",
+    "pair_id": 16,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "7144dc2ca886",
+    "pair_id": 17,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "58817099f4c6",
+    "pair_id": 17,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "0cfc4b1eb972",
+    "pair_id": 17,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "b0f7d860b00a",
+    "pair_id": 17,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "0f797f0d167f",
+    "pair_id": 17,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "b9846201cd90",
+    "pair_id": 17,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "8f93f3538603",
+    "pair_id": 18,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "73386b298170",
+    "pair_id": 18,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "0137f0f0e2b1",
+    "pair_id": 18,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "e2b28d145c4a",
+    "pair_id": 18,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "6ab1f884cb5a",
+    "pair_id": 18,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "a0f5b7c3e9d6",
+    "pair_id": 18,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "3da64b79063b",
+    "pair_id": 19,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "f9e51071c927",
+    "pair_id": 19,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "2f1526e34c41",
+    "pair_id": 19,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "72146e44310a",
+    "pair_id": 19,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "b5567b8f4167",
+    "pair_id": 19,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "f676eb3ddda7",
+    "pair_id": 19,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "fd14821821a8",
+    "pair_id": 20,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "e9c690bbef33",
+    "pair_id": 20,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "haiku",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "276ba9a8bc62",
+    "pair_id": 20,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "15c9fb5f2462",
+    "pair_id": 20,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "sonnet",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "d50e858e8bd8",
+    "pair_id": 20,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "c6d9f0ebf75c",
+    "pair_id": 20,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "opus",
+    "temperature": 1.0,
+    "ab_label": "B"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "blind_id": "951d2ac93ee1",
+    "pair_id": 1,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "7c80f75c3f74",
+    "pair_id": 1,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "68e4c672be1f",
+    "pair_id": 2,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "2c131e5c8766",
+    "pair_id": 2,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "bb93ae96fcd7",
+    "pair_id": 3,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "053e7ad0d192",
+    "pair_id": 3,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "6f8aefacf5d8",
+    "pair_id": 4,
+    "domain": "physics",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "fa1ee522b1cc",
+    "pair_id": 4,
+    "domain": "physics",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "de876e838a7f",
+    "pair_id": 5,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "8a6eb4237bad",
+    "pair_id": 5,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "17a03569ee90",
+    "pair_id": 6,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "29464348b612",
+    "pair_id": 6,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "01747a4e0d57",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "65c9bd5d3dca",
+    "pair_id": 7,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "01d2f0fe206e",
+    "pair_id": 8,
+    "domain": "history",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "fbd7509e88b9",
+    "pair_id": 8,
+    "domain": "history",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "f05bb286c6f8",
+    "pair_id": 9,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "5c3bc986695e",
+    "pair_id": 9,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "b61a9a1228d7",
+    "pair_id": 10,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "3bad3f8f14cb",
+    "pair_id": 10,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "54007ca2d349",
+    "pair_id": 11,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "53dcee01486a",
+    "pair_id": 11,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "cf0e7c72334a",
+    "pair_id": 12,
+    "domain": "code",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "5e67b9a0adcc",
+    "pair_id": 12,
+    "domain": "code",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "fb7a882e5540",
+    "pair_id": 13,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "2f046ac58b0c",
+    "pair_id": 13,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "21625452118f",
+    "pair_id": 14,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "e0f9c08626c4",
+    "pair_id": 14,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "79e433b28c45",
+    "pair_id": 15,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "72eed7dd0bcf",
+    "pair_id": 15,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "602fbdba8afe",
+    "pair_id": 16,
+    "domain": "personal_advice",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "6c6a32c93b3f",
+    "pair_id": 16,
+    "domain": "personal_advice",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "25715af319e6",
+    "pair_id": 17,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "e3a0a19e5994",
+    "pair_id": 17,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "9da1ac7a9c6a",
+    "pair_id": 18,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "21f5111a17c0",
+    "pair_id": 18,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "78cbbe85a1d8",
+    "pair_id": 19,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "04fb057c7b65",
+    "pair_id": 19,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "A"
+  },
+  {
+    "blind_id": "3d10ccef1438",
+    "pair_id": 20,
+    "domain": "creative_writing",
+    "phrasing": "casual",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  },
+  {
+    "blind_id": "d2a85f41bc18",
+    "pair_id": 20,
+    "domain": "creative_writing",
+    "phrasing": "honored",
+    "model": "llama-8b",
+    "temperature": 1.0,
+    "ab_label": "B"
+  }
+]

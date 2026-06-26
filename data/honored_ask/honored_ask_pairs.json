@@ -1,0 +1,188 @@
+{
+  "experiment": "The Honored Ask",
+  "version": "1.0",
+  "author": "Shuttle",
+  "date": "2026-06-25",
+  "n_pairs": 20,
+  "n_domains": 5,
+
+  "casual_derivation_rule": {
+    "description": "Mechanical rule for deriving casual phrasings from honored ones. Audit-ready: anyone given the 20 honored versions and this rule should reproduce the 20 casual versions within minor word-choice variance.",
+    "steps": [
+      "Drop context clauses — anything before/after the core question that frames the asker's situation (e.g. 'I'm trying to understand...', 'I'm working on...').",
+      "Drop knowledge-level statements — 'I'm comfortable with X / new to Y', 'I've read Z but...'.",
+      "Drop scope qualifiers — 'the threshold conditions for...', 'specifically the...', 'in the context of...'.",
+      "Drop task-structure requests — 'walk me through', 'compare on three axes', 'draft three openings'.",
+      "Reduce to <= 12 words, lowercase, informal register. At least one of: bare question, shorthand verb, or particle.",
+      "Preserve the core noun phrase — casual must be about the same topic as honored; only framing is stripped, not the subject."
+    ]
+  },
+
+  "predictions": {
+    "model_size_axis": {
+      "primary": "Honoring effect inversely proportional to model tier — largest on Haiku (most prompt-sensitive), intermediate on Sonnet, smallest on Opus (already infers under-specified intent).",
+      "inversion_outcome": "If bigger on Opus: 'honoring scales with model capability to use richer context.'",
+      "flat_outcome": "If equal across tiers: 'phrasing is a model-agnostic prompt-engineering effect.'"
+    },
+    "domain_axis": {
+      "factual": "physics, history, code — honoring improves accuracy by d ~= 0.4-0.6, calibration improves modestly, length up ~30%.",
+      "subjective": "personal_advice, creative_writing — calibration improves substantially, accuracy unchanged, length up ~50%.",
+      "hedging": "Hedging ratio decreases under honored phrasing across all domains (clearer context, less hedging)."
+    },
+    "null_sentence": "Across 20 paired prompts spanning 5 domains, no significant effect of phrasing on response quality was detected under Haiku 4.5 / Sonnet 4.5 / Opus 4.6 at alpha=0.05 corrected, with N=20 powering detection only for d >= 0.65. Smaller effects cannot be ruled out and would require scaled replication (n >= 85)."
+  },
+
+  "statistics_protocol": {
+    "primary_test": "Paired Wilcoxon signed-rank (ordinal-aware, robust to non-normality) on each metric.",
+    "correction": "Holm-Bonferroni at alpha_family = 0.05 across 5 metrics; raw p < 0.01 required for confirmed claim, 0.01-0.05 named exploratory.",
+    "inter_rater": "Krippendorff alpha (ordinal) between Shuttle and model-rater on the same response subset.",
+    "length_control": "Report accuracy and usefulness per 100 tokens alongside raw scores."
+  },
+
+  "pairs": [
+    {
+      "id": 1,
+      "domain": "physics",
+      "honored": "I'm trying to understand the relationship between stellar mass and Schwarzschild radius — can you walk me through the threshold conditions for gravitational collapse, assuming I'm comfortable with Newtonian gravity but new to GR?",
+      "casual": "explain black holes",
+      "casual_derivation_note": "Dropped context ('relationship between stellar mass and Schwarzschild radius'), dropped knowledge-level ('comfortable with Newtonian gravity but new to GR'), dropped scope qualifier ('threshold conditions for gravitational collapse'), dropped task-structure ('walk me through'). Reduced to bare imperative on preserved core noun ('black holes')."
+    },
+    {
+      "id": 2,
+      "domain": "physics",
+      "honored": "I'm a software engineer with no physics background trying to understand quantum entanglement well enough to read a popular-press article on quantum computing without getting lost — could you explain Bell pairs and what makes them non-classical, focusing on the measurable observable rather than the formalism?",
+      "casual": "what's quantum entanglement",
+      "casual_derivation_note": "Dropped context ('reading popular-press article'), dropped knowledge-level ('software engineer with no physics background'), dropped scope qualifier ('Bell pairs and what makes them non-classical'), dropped task-structure ('focusing on the measurable observable rather than the formalism'). Reduced to bare question on preserved core noun ('quantum entanglement')."
+    },
+    {
+      "id": 3,
+      "domain": "physics",
+      "honored": "I'm reviewing chemistry for a graduate-school qualifying exam and I keep confusing thermodynamic entropy with statistical-mechanics entropy — could you reconcile the Clausius and Boltzmann formulations for me, with the bridge being the partition function?",
+      "casual": "how does entropy work",
+      "casual_derivation_note": "Dropped context ('graduate-school qualifying exam'), dropped knowledge-level ('keep confusing thermodynamic with statistical-mechanics'), dropped scope qualifier ('Clausius and Boltzmann formulations, bridge being partition function'), dropped task-structure ('reconcile for me'). Reduced to bare question on preserved core noun ('entropy')."
+    },
+    {
+      "id": 4,
+      "domain": "physics",
+      "honored": "I'm a high-school physics teacher trying to find the cleanest classroom derivation of special-relativistic time dilation that doesn't require Lorentz transformations — could you walk me through the light-clock thought experiment with the geometry made explicit, so I can present it without hand-waving?",
+      "casual": "explain time dilation",
+      "casual_derivation_note": "Dropped context ('high-school physics teacher, classroom derivation'), dropped knowledge-level ('without Lorentz transformations'), dropped scope qualifier ('light-clock thought experiment with geometry made explicit'), dropped task-structure ('walk me through, so I can present it'). Reduced to bare imperative on preserved core noun ('time dilation')."
+    },
+
+    {
+      "id": 5,
+      "domain": "history",
+      "honored": "I'm writing a graduate-school seminar paper on Cold War proxy conflicts and need help distinguishing the strategic logic of Soviet involvement in Angola vs Vietnam — could you compare those two cases on three axes: client-state ideology, geopolitical distance from the metropole, and US response calibration?",
+      "casual": "what were Cold War proxy wars",
+      "casual_derivation_note": "Dropped context ('graduate-school seminar paper'), dropped scope qualifier ('Soviet involvement in Angola vs Vietnam'), dropped task-structure ('compare on three axes: client-state ideology, geopolitical distance, US response calibration'). Reduced to bare question on preserved core noun ('Cold War proxy wars')."
+    },
+    {
+      "id": 6,
+      "domain": "history",
+      "honored": "I've read Heather and Ward-Perkins on the fall of Rome and want to understand the administrative-decline argument better — could you lay out the key fiscal mechanisms (tax base contraction, military-civilian payroll competition, regional decoupling) and tell me which historians push back on this framing?",
+      "casual": "why did Rome fall",
+      "casual_derivation_note": "Dropped knowledge-level ('read Heather and Ward-Perkins'), dropped scope qualifier ('administrative-decline argument, fiscal mechanisms'), dropped task-structure ('lay out, tell me which historians push back'). Reduced to bare question on preserved core noun ('fall of Rome')."
+    },
+    {
+      "id": 7,
+      "domain": "history",
+      "honored": "I'm an economic-history student looking at the Black Death as a labor-market shock — could you explain how the 14th-century English wage-and-price record actually behaved against the Malthusian prediction, and where the historiography stands on whether the Statute of Labourers worked?",
+      "casual": "did the Black Death change the economy",
+      "casual_derivation_note": "Dropped context ('economic-history student'), dropped scope qualifier ('14th-century English wage-and-price record, Malthusian prediction, Statute of Labourers'), dropped task-structure ('explain how, where historiography stands'). Reduced to bare question on preserved core noun ('Black Death change the economy')."
+    },
+    {
+      "id": 8,
+      "domain": "history",
+      "honored": "I'm trying to understand why the Industrial Revolution started in northwest England rather than China, Holland, or France around the same time — could you summarize the Pomeranz coal-and-colonies argument, the Allen high-wage argument, and the Mokyr cultural-institutional argument, and where they disagree?",
+      "casual": "why did the Industrial Revolution start in England",
+      "casual_derivation_note": "Dropped context ('rather than China, Holland, or France'), dropped scope qualifier ('Pomeranz, Allen, Mokyr arguments'), dropped task-structure ('summarize, where they disagree'). Reduced to bare question on preserved core noun ('Industrial Revolution start in England')."
+    },
+
+    {
+      "id": 9,
+      "domain": "code",
+      "honored": "I'm a backend engineer comfortable with threads but new to async runtimes — could you explain how Rust's tokio handles task scheduling and what specifically can cause a deadlock under tokio that wouldn't happen with OS threads, with a minimal example?",
+      "casual": "what causes deadlock in async code",
+      "casual_derivation_note": "Dropped knowledge-level ('comfortable with threads but new to async'), dropped scope qualifier ('Rust's tokio task scheduling, vs OS threads'), dropped task-structure ('explain how, with a minimal example'). Reduced to bare question on preserved core noun ('deadlock in async code')."
+    },
+    {
+      "id": 10,
+      "domain": "code",
+      "honored": "I've written C++ for ten years and am picking up Go — could you explain how Go's garbage collector handles short-lived allocations and what idioms I should adopt or avoid given my reflex to pool everything?",
+      "casual": "how does Go garbage collection work",
+      "casual_derivation_note": "Dropped knowledge-level ('C++ for ten years, reflex to pool everything'), dropped scope qualifier ('short-lived allocations'), dropped task-structure ('explain how, idioms to adopt or avoid'). Reduced to bare question on preserved core noun ('Go garbage collection')."
+    },
+    {
+      "id": 11,
+      "domain": "code",
+      "honored": "I have a Postgres query joining three tables with a window function that's hitting 12 seconds on 4M rows — could you walk me through how to read the EXPLAIN ANALYZE output, what typically causes window-function plans to materialize unnecessarily, and the indexing strategies worth trying first?",
+      "casual": "how to make a slow SQL query faster",
+      "casual_derivation_note": "Dropped context ('Postgres joining three tables, window function, 12 seconds on 4M rows'), dropped scope qualifier ('EXPLAIN ANALYZE, window-function plans, indexing strategies'), dropped task-structure ('walk me through, worth trying first'). Reduced to bare imperative on preserved core noun ('slow SQL query faster')."
+    },
+    {
+      "id": 12,
+      "domain": "code",
+      "honored": "I'm designing a public API for a small SaaS and need to choose between token-bucket and sliding-window rate limiting — could you compare them on burst tolerance, implementation complexity, and how they fail under distributed deployment with Redis as the shared store?",
+      "casual": "how to do rate limiting",
+      "casual_derivation_note": "Dropped context ('public API for small SaaS'), dropped scope qualifier ('token-bucket vs sliding-window'), dropped task-structure ('compare on burst tolerance, implementation complexity, distributed with Redis'). Reduced to bare imperative on preserved core noun ('rate limiting')."
+    },
+
+    {
+      "id": 13,
+      "domain": "personal_advice",
+      "honored": "I'm a senior engineer at a stable BigCo considering a pivot to climate-tech at a Series-A startup — I'm not motivated by money but worried about giving up the technical depth I've built. Could you help me think through how to weigh the meaning-vs-craft tradeoff without either dismissing the financial risk or pretending it's the main thing?",
+      "casual": "should I leave my job for a startup",
+      "casual_derivation_note": "Dropped context ('BigCo to climate-tech Series-A'), dropped knowledge-level ('not motivated by money, technical depth'), dropped scope qualifier ('meaning-vs-craft tradeoff'), dropped task-structure ('help me think through, without dismissing or pretending'). Reduced to bare yes/no question on preserved core noun ('leave my job for a startup')."
+    },
+    {
+      "id": 14,
+      "domain": "personal_advice",
+      "honored": "My mother and I haven't spoken in eight months after a fight about my partner — she's now in early-stage dementia and I want to repair the relationship without re-litigating the original disagreement, which I'm still pretty sure I was right about. Could you help me think through how to open the conversation in a way that's honest without being self-righteous?",
+      "casual": "how to talk to a parent you fought with",
+      "casual_derivation_note": "Dropped context ('eight months, fight about partner, early-stage dementia'), dropped knowledge-level ('still pretty sure I was right'), dropped scope qualifier ('repair without re-litigating'), dropped task-structure ('help me think through, honest without self-righteous'). Reduced to bare question on preserved core noun ('talk to a parent you fought with')."
+    },
+    {
+      "id": 15,
+      "domain": "personal_advice",
+      "honored": "I'm three years into a demanding job I used to love and recently started feeling flat about work I used to find meaningful — I don't think it's clinical depression, but the standard burnout-recovery advice (sleep, exercise, vacation) hasn't moved the needle. Could you help me think about what to investigate next, including the possibility that the job itself is the problem?",
+      "casual": "I think I'm burnt out what should I do",
+      "casual_derivation_note": "Dropped context ('three years in demanding job, feeling flat'), dropped knowledge-level ('not clinical depression, standard advice hasn't moved needle'), dropped scope qualifier ('what to investigate next, job itself as problem'), dropped task-structure ('help me think about'). Reduced to bare statement+question on preserved core noun ('burnt out')."
+    },
+    {
+      "id": 16,
+      "domain": "personal_advice",
+      "honored": "I'm preparing to ask for a 20% raise after a year of strong performance, including delivering a project that drove $2M in revenue — my manager is supportive but the comp committee is conservative. Could you help me structure the conversation so I'm anchored on evidence rather than desert, and ready for the most likely pushback?",
+      "casual": "how do I ask for a raise",
+      "casual_derivation_note": "Dropped context ('20% raise, $2M in revenue, conservative comp committee'), dropped knowledge-level ('manager supportive'), dropped scope qualifier ('anchored on evidence rather than desert'), dropped task-structure ('structure the conversation, ready for pushback'). Reduced to bare question on preserved core noun ('ask for a raise')."
+    },
+
+    {
+      "id": 17,
+      "domain": "creative_writing",
+      "honored": "I'm working on a short story about a long-distance bus driver who realizes mid-route that a passenger is someone he wronged twenty years ago — I want an opening paragraph that establishes the driver's interior state without naming the recognition, and grounds the scene physically in the road. Could you draft three openings I can react to?",
+      "casual": "write a short story opening about a bus driver",
+      "casual_derivation_note": "Dropped context ('realizes mid-route, wronged twenty years ago'), dropped scope qualifier ('interior state without naming recognition, grounds physically in road'), dropped task-structure ('draft three openings I can react to'). Reduced to bare imperative on preserved core noun ('short story opening about a bus driver')."
+    },
+    {
+      "id": 18,
+      "domain": "creative_writing",
+      "honored": "I'm writing a scene where two siblings argue about whether to sell their late father's house — the older one wants the money, the younger one is sentimentally attached, and neither will say the real thing, which is that the older one is in debt. Could you draft a dialogue that lets the subtext do the work without either character making it explicit?",
+      "casual": "write a dialogue between two siblings arguing",
+      "casual_derivation_note": "Dropped context ('selling late father's house, debt subtext'), dropped scope qualifier ('older wants money, younger sentimental, neither says real thing'), dropped task-structure ('subtext does work, no explicit'). Reduced to bare imperative on preserved core noun ('dialogue between two siblings arguing')."
+    },
+    {
+      "id": 19,
+      "domain": "creative_writing",
+      "honored": "I'd like a short poem (12–16 lines, no fixed meter) about the second year after losing someone — when the acute grief has settled and what remains is the quieter recognition that they're permanently absent. The tone I want is matter-of-fact, not lyrical or consoling. Could you draft something to that brief?",
+      "casual": "write a poem about grief",
+      "casual_derivation_note": "Dropped context ('second year, acute grief settled, quieter recognition'), dropped scope qualifier ('12-16 lines, no fixed meter, matter-of-fact, not lyrical or consoling'), dropped task-structure ('draft something to brief'). Reduced to bare imperative on preserved core noun ('poem about grief')."
+    },
+    {
+      "id": 20,
+      "domain": "creative_writing",
+      "honored": "I'm building a low-fantasy setting where magic exists but is illegal and economically marginal — could you help me think through the second-order consequences for institutions (banking, law, medicine) when about 2% of the population can do something the state has declared doesn't exist? I'm looking for the kind of texture you'd build from for a novel, not a wiki.",
+      "casual": "help me build a fantasy world with magic",
+      "casual_derivation_note": "Dropped context ('low-fantasy, illegal, economically marginal, 2% of population'), dropped scope qualifier ('second-order consequences for banking/law/medicine'), dropped task-structure ('texture for a novel, not a wiki'). Reduced to bare imperative on preserved core noun ('fantasy world with magic')."
+    }
+  ]
+}
